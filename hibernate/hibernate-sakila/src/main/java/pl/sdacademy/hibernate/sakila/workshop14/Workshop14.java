@@ -49,8 +49,7 @@ public class Workshop14 {
             System.out.println(city); //generuje dodatkowego zapytanie SELECT
 
             return city;
-        }
-        finally {
+        } finally {
             emf.close();
         }
     }

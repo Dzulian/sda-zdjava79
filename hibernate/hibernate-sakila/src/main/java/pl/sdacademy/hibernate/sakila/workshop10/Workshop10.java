@@ -40,8 +40,7 @@ public class Workshop10 {
             em.persist(country);
 
             em.getTransaction().commit();
-        }
-        finally {
+        } finally {
             emf.close();
         }
     }
